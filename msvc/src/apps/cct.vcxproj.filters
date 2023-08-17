@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\apps\cct.cpp">
+      <Filter>Source Files\Bin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\apps\proj_strtod.cpp">
+      <Filter>Source Files\Bin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\apps\proj_strtod.h">
+      <Filter>Source Files\Bin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\apps\optargpm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1E261305-8F06-3277-90FC-66ACE59A0536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{334E6E27-DEAA-3614-AE2F-DB2E02F0BB80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bin">
+      <UniqueIdentifier>{69EDEE6E-AC57-3564-B142-EB1B8DA76460}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

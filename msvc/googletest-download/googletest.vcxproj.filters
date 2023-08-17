@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.2.0\msvc\googletest-download\CMakeFiles\db385af50d595dfc4353ddf64e112796\googletest-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.2.0\msvc\googletest-download\CMakeFiles\db385af50d595dfc4353ddf64e112796\googletest-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.2.0\msvc\googletest-download\CMakeFiles\db385af50d595dfc4353ddf64e112796\googletest-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.2.0\msvc\googletest-download\CMakeFiles\db385af50d595dfc4353ddf64e112796\googletest-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.2.0\msvc\googletest-download\CMakeFiles\db385af50d595dfc4353ddf64e112796\googletest-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.2.0\msvc\googletest-download\CMakeFiles\db385af50d595dfc4353ddf64e112796\googletest-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.2.0\msvc\googletest-download\CMakeFiles\db385af50d595dfc4353ddf64e112796\googletest-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.2.0\msvc\googletest-download\CMakeFiles\db385af50d595dfc4353ddf64e112796\googletest-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.2.0\msvc\googletest-download\CMakeFiles\1ad77b1541a8131e7b22965f12aa1cc2\googletest-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.2.0\msvc\googletest-download\CMakeFiles\7e0b08f87ec7d318fbcdf51af509aa59\googletest.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.2.0\msvc\googletest-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="N:\Development\Dev_Base\proj-9.2.0\msvc\googletest-download\CMakeFiles\googletest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2FA0979D-AC12-39FA-8C92-5A2526749AA6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

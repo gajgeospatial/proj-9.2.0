@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{13D10244-C951-3524-8CCE-F6499090F3D0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\proj-9.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\proj-9.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\proj-9.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>N:\Development\Dev_Base\proj-9.2.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\Development\Dev_Base\proj-9.2.0\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule N:/Development/Dev_Base/proj-9.2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/proj-9.2.0 -BN:/Development/Dev_Base/proj-9.2.0/msvc --check-stamp-file N:/Development/Dev_Base/proj-9.2.0/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.20\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.20\Templates\CPackConfig.cmake.in;N:\Development\Dev_Base\proj-9.2.0\cmake\Ccache.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\FindSqlite3.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjConfig.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjInstallPath.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjMac.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjTest.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjUtilities.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjVersion.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\policies.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\proj_config.cmake.in;N:\Development\Dev_Base\proj-9.2.0\cmake\uninstall.cmake.in;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeCCompiler.cmake;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeCXXCompiler.cmake;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeRCCompiler.cmake;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeSystem.cmake;N:\Development\Dev_Base\proj-9.2.0\proj.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule N:/Development/Dev_Base/proj-9.2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/proj-9.2.0 -BN:/Development/Dev_Base/proj-9.2.0/msvc --check-stamp-file N:/Development/Dev_Base/proj-9.2.0/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.20\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.20\Templates\CPackConfig.cmake.in;N:\Development\Dev_Base\proj-9.2.0\cmake\Ccache.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\FindSqlite3.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjConfig.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjInstallPath.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjMac.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjTest.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjUtilities.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjVersion.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\policies.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\proj_config.cmake.in;N:\Development\Dev_Base\proj-9.2.0\cmake\uninstall.cmake.in;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeCCompiler.cmake;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeCXXCompiler.cmake;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeRCCompiler.cmake;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeSystem.cmake;N:\Development\Dev_Base\proj-9.2.0\proj.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule N:/Development/Dev_Base/proj-9.2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/proj-9.2.0 -BN:/Development/Dev_Base/proj-9.2.0/msvc --check-stamp-file N:/Development/Dev_Base/proj-9.2.0/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.20\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.20\Templates\CPackConfig.cmake.in;N:\Development\Dev_Base\proj-9.2.0\cmake\Ccache.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\FindSqlite3.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjConfig.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjInstallPath.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjMac.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjTest.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjUtilities.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjVersion.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\policies.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\proj_config.cmake.in;N:\Development\Dev_Base\proj-9.2.0\cmake\uninstall.cmake.in;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeCCompiler.cmake;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeCXXCompiler.cmake;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeRCCompiler.cmake;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeSystem.cmake;N:\Development\Dev_Base\proj-9.2.0\proj.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule N:/Development/Dev_Base/proj-9.2.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SN:/Development/Dev_Base/proj-9.2.0 -BN:/Development/Dev_Base/proj-9.2.0/msvc --check-stamp-file N:/Development/Dev_Base/proj-9.2.0/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.20\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.20\Templates\CPackConfig.cmake.in;N:\Development\Dev_Base\proj-9.2.0\cmake\Ccache.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\FindSqlite3.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjConfig.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjInstallPath.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjMac.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjTest.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjUtilities.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\ProjVersion.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\policies.cmake;N:\Development\Dev_Base\proj-9.2.0\cmake\proj_config.cmake.in;N:\Development\Dev_Base\proj-9.2.0\cmake\uninstall.cmake.in;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeCCompiler.cmake;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeCXXCompiler.cmake;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeRCCompiler.cmake;N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\3.20.0\CMakeSystem.cmake;N:\Development\Dev_Base\proj-9.2.0\proj.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">N:\Development\Dev_Base\proj-9.2.0\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\ZERO_CHECK.vcxproj">
+      <Project>{A48530F2-9F4B-309B-800B-11762426FCFE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\test\benchmark\bench_proj_trans.vcxproj">
+      <Project>{EAFA5BBC-6F0C-3CE2-A0A1-3E8E4AF485CF}</Project>
+      <Name>bench_proj_trans</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\apps\binproj.vcxproj">
+      <Project>{3D7263BF-7319-3910-B30E-A58901E4B76A}</Project>
+      <Name>binproj</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\apps\cct.vcxproj">
+      <Project>{CC2B5653-D4ED-3361-84D2-6C70ABF7C049}</Project>
+      <Name>cct</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\check_wkt1_grammar_md5.vcxproj">
+      <Project>{F4607451-FC69-3255-AA93-18CDB6FE1845}</Project>
+      <Name>check_wkt1_grammar_md5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\check_wkt2_grammar_md5.vcxproj">
+      <Project>{DEC381AF-DB1A-3A17-9310-B15A831ADA06}</Project>
+      <Name>check_wkt2_grammar_md5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\create_tmp_user_writable_dir.vcxproj">
+      <Project>{4BBC536D-3335-3790-8FAE-76AF7EA2DFE3}</Project>
+      <Name>create_tmp_user_writable_dir</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\apps\cs2cs.vcxproj">
+      <Project>{7ABE7119-4469-38BD-8621-51E94D26AC15}</Project>
+      <Name>cs2cs</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\data\generate_proj_db.vcxproj">
+      <Project>{954320D4-2260-3E60-8A56-CF413DC5831A}</Project>
+      <Name>generate_proj_db</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\apps\geod.vcxproj">
+      <Project>{0D3484BB-18E2-3377-B2F9-52BB3C2E61A6}</Project>
+      <Name>geod</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\tests\geodsigntest.vcxproj">
+      <Project>{71D72D2E-F3E3-3A3C-A0A1-4EA978ED496A}</Project>
+      <Name>geodsigntest</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\tests\geodtest.vcxproj">
+      <Project>{3437430E-B6B0-3406-82A3-6C7ACFFD8B70}</Project>
+      <Name>geodtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\apps\gie.vcxproj">
+      <Project>{70DAB349-83A7-33E5-82AA-ED7572D4AD8F}</Project>
+      <Name>gie</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\test\unit\gie_self_tests.vcxproj">
+      <Project>{1A742D3D-10CB-32EB-A73D-88853B559959}</Project>
+      <Name>gie_self_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\apps\invgeod.vcxproj">
+      <Project>{22C8FD7E-8D28-3116-9F62-148A935D4597}</Project>
+      <Name>invgeod</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\apps\invproj.vcxproj">
+      <Project>{94BD5C9B-F2E9-3920-BD8A-91B204BA1F8C}</Project>
+      <Name>invproj</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\proj.vcxproj">
+      <Project>{36CECFC0-6B5B-3A75-92C2-34824F54A38E}</Project>
+      <Name>proj</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\test\unit\proj_angular_io_test.vcxproj">
+      <Project>{464617A0-D281-3419-AB81-D1021EF838E5}</Project>
+      <Name>proj_angular_io_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\test\unit\proj_context_test.vcxproj">
+      <Project>{1FED1352-A113-3F66-8DA4-28AE4936F236}</Project>
+      <Name>proj_context_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\test\unit\proj_errno_string_test.vcxproj">
+      <Project>{F5F7D0E0-E6A1-38AD-92FB-6A19396184A9}</Project>
+      <Name>proj_errno_string_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\test\unit\proj_test_cpp_api.vcxproj">
+      <Project>{23CA7EB9-49B1-3C23-9DC6-1A889E106E45}</Project>
+      <Name>proj_test_cpp_api</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\apps\projinfo.vcxproj">
+      <Project>{0307714D-DFF8-3B56-A481-6416F5EADA63}</Project>
+      <Name>projinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\src\apps\projsync.vcxproj">
+      <Project>{EA39C4A8-9A11-3472-9D16-A174BAF7D034}</Project>
+      <Name>projsync</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\test\unit\test_defmodel.vcxproj">
+      <Project>{D17F8EC9-BBE4-32AD-8D84-CDB6127D43FF}</Project>
+      <Name>test_defmodel</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\test\unit\test_misc.vcxproj">
+      <Project>{8F2CCD52-1854-3807-BBAD-F35D29A4E410}</Project>
+      <Name>test_misc</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\test\unit\test_network.vcxproj">
+      <Project>{71764D30-7570-3F31-A5E5-79D5CA55DB45}</Project>
+      <Name>test_network</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\Development\Dev_Base\proj-9.2.0\msvc\test\unit\test_tinshift.vcxproj">
+      <Project>{556199CC-68AD-3BDB-B8DC-29A0BABC5348}</Project>
+      <Name>test_tinshift</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
